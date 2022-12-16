@@ -129,6 +129,21 @@ Create database studentlist;
 Login into mysql on slave and run 
 Show databases;
 You will se studentlist database in the databases list
+Using Java to Do it 
+STEP 1: installing java environment 
+```bash
+sudo apt install default-jdk 
+```
+STEP 2: INSTALLING THE MYSQL-CONNECTOR
+
+Download the file mysql-connector.jarfile and place it in directory where you want to save java files now create java files in the same directory and export it using 
+```bash
+export CLASSPATH=./mysql-connector.jar:.
+```
+and after writing the required java codes 
+Run the below commads to compile and run the above java program 
+  javac students.java
+ java your_.class _file_name.
 
 
 
